@@ -1,0 +1,32 @@
+2026-05-14 15:27:32.269 +05:00 [INF] Now listening on: http://localhost:5243
+2026-05-14 15:27:32.299 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 15:27:32.300 +05:00 [INF] Hosting environment: Development
+2026-05-14 15:27:32.301 +05:00 [INF] Content root path: C:\Users\user\Desktop\W6.1\WebApi
+2026-05-14 15:27:59.090 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger - null null
+2026-05-14 15:27:59.339 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger - 301 0 null 256.2032ms
+2026-05-14 15:27:59.381 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2026-05-14 15:27:59.524 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 144.2149ms
+2026-05-14 15:27:59.582 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - null null
+2026-05-14 15:27:59.594 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.css - null null
+2026-05-14 15:27:59.597 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - null null
+2026-05-14 15:27:59.610 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-14 15:27:59.686 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2026-05-14 15:27:59.811 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - 200 26479 text/css 229.8459ms
+2026-05-14 15:27:59.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.css - 200 152 text/css 282.1007ms
+2026-05-14 15:27:59.935 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 324.0517ms
+2026-05-14 15:27:59.969 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - 200 418181 text/javascript 372.3865ms
+2026-05-14 15:27:59.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 200 null application/javascript;charset=utf-8 287.9888ms
+2026-05-14 15:28:00.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2026-05-14 15:28:00.199 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - null null
+2026-05-14 15:28:00.262 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - 200 628 image/png 62.5022ms
+2026-05-14 15:28:00.495 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 311.8655ms
+2026-05-14 15:28:04.654 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/cars - null null
+2026-05-14 15:28:04.684 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-05-14 15:28:04.704 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-14 15:28:04.816 +05:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Domain.Car]] GetAll() on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 15:28:06.049 +05:00 [INF] Retrieving all cars
+2026-05-14 15:28:06.776 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Car, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 15:28:06.884 +05:00 [INF] Executed action WebApi.Controller.CarController.GetAll (WebApi) in 2043.2415ms
+2026-05-14 15:28:06.887 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-14 15:28:06.892 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/cars - 200 null application/json; charset=utf-8 2238.0764ms
+2026-05-14 16:53:13.361 +05:00 [INF] Application is shutting down...
