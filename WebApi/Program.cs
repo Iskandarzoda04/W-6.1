@@ -6,6 +6,7 @@ using Infrastructure.Interface;
 using Serilog;
 using Infrastructure.Services;
 using Infrastructure.Service;
+using WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +38,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<LogginMiddleware>();
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<AdminBlockMiddleware>();
 app.MapControllers();
 
 app.Run();

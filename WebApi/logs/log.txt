@@ -3,3 +3,157 @@
 2026-05-14 16:53:47.719 +05:00 [INF] Hosting environment: Development
 2026-05-14 16:53:47.721 +05:00 [INF] Content root path: C:\Users\user\Desktop\W6.1\WebApi
 2026-05-14 16:56:27.688 +05:00 [INF] Application is shutting down...
+2026-05-14 17:42:29.917 +05:00 [INF] Now listening on: http://localhost:5243
+2026-05-14 17:42:29.938 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 17:42:29.940 +05:00 [INF] Hosting environment: Development
+2026-05-14 17:42:29.941 +05:00 [INF] Content root path: C:\Users\user\Desktop\W6.1\WebApi
+2026-05-14 17:42:48.667 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2026-05-14 17:42:48.939 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 304 null null 285.0826ms
+2026-05-14 17:42:49.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - null null
+2026-05-14 17:42:49.047 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.css - null null
+2026-05-14 17:42:49.051 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - null null
+2026-05-14 17:42:49.051 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-14 17:42:49.051 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2026-05-14 17:42:49.070 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.css - 304 null null 23.0636ms
+2026-05-14 17:42:49.070 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - 304 null null 52.2271ms
+2026-05-14 17:42:49.108 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - 304 null null 57.385ms
+2026-05-14 17:42:49.109 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - 304 null null 57.9414ms
+2026-05-14 17:42:49.110 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 304 null null 58.7039ms
+2026-05-14 17:42:49.394 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2026-05-14 17:42:49.714 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 320.4492ms
+2026-05-14 17:42:54.756 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/cars - null null
+2026-05-14 17:42:54.785 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-05-14 17:42:54.826 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-14 17:42:54.902 +05:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Domain.Car]] GetAll() on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 17:42:54.933 +05:00 [INF] Retrieving all cars
+2026-05-14 17:42:55.860 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Car, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 17:42:55.926 +05:00 [INF] Executed action WebApi.Controller.CarController.GetAll (WebApi) in 1004.9351ms
+2026-05-14 17:42:55.933 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-14 17:42:55.946 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/cars - 200 null application/json; charset=utf-8 1189.5809ms
+2026-05-14 17:43:03.675 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/cars - application/json 98
+2026-05-14 17:43:03.686 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.Create (WebApi)'
+2026-05-14 17:43:03.731 +05:00 [INF] Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Create(Domain.Car) on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 17:43:03.815 +05:00 [INF] Creating a new car: model=string, manufacturer=string
+2026-05-14 17:43:03.921 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2026-05-14 17:43:03.927 +05:00 [INF] Executed action WebApi.Controller.CarController.Create (WebApi) in 187.2657ms
+2026-05-14 17:43:03.932 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.Create (WebApi)'
+2026-05-14 17:43:03.938 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/cars - 200 null application/json; charset=utf-8 263.0425ms
+2026-05-14 17:43:17.930 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5243/api/cars - application/json 98
+2026-05-14 17:43:17.935 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.Update (WebApi)'
+2026-05-14 17:43:17.964 +05:00 [INF] Route matched with {action = "Update", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Update(Domain.Car) on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 17:43:17.985 +05:00 [INF] Updating car: id=0
+2026-05-14 17:43:18.010 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2026-05-14 17:43:18.018 +05:00 [INF] Executed action WebApi.Controller.CarController.Update (WebApi) in 45.1301ms
+2026-05-14 17:43:18.025 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.Update (WebApi)'
+2026-05-14 17:43:18.030 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5243/api/cars - 200 null application/json; charset=utf-8 100.3164ms
+2026-05-14 17:43:30.570 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/cars/2 - null null
+2026-05-14 17:43:30.579 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.GetById (WebApi)'
+2026-05-14 17:43:30.609 +05:00 [INF] Route matched with {action = "GetById", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Domain.Car] GetById(Int32) on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 17:43:30.625 +05:00 [INF] Retrieving car by id: id=2
+2026-05-14 17:43:30.655 +05:00 [INF] Executing ObjectResult, writing value of type 'Domain.Car'.
+2026-05-14 17:43:30.662 +05:00 [INF] Executed action WebApi.Controller.CarController.GetById (WebApi) in 47.7843ms
+2026-05-14 17:43:30.667 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.GetById (WebApi)'
+2026-05-14 17:43:30.673 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/cars/2 - 200 null application/json; charset=utf-8 102.566ms
+2026-05-14 17:43:43.634 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5243/api/cars/2 - null null
+2026-05-14 17:43:43.645 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.Delete (WebApi)'
+2026-05-14 17:43:43.668 +05:00 [INF] Route matched with {action = "Delete", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Delete(Int32) on controller WebApi.Controller.CarController (WebApi).
+2026-05-14 17:43:43.688 +05:00 [INF] Deleting car: id=2
+2026-05-14 17:43:43.790 +05:00 [ERR] Error deleting car; id=2
+Npgsql.PostgresException (0x80004005): 23503: UPDATE или DELETE в таблице "cars" нарушает ограничение внешнего ключа "rentals_carid_fkey" таблицы "rentals"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 663
+   at Infrastructure.Services.CarService.Delete(Int32 id) in C:\Users\user\Desktop\W6.1\Infrastructure\Service\CarService.cs:line 147
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23503
+    MessageText: UPDATE или DELETE в таблице "cars" нарушает ограничение внешнего ключа "rentals_carid_fkey" таблицы "rentals"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: rentals
+    ConstraintName: rentals_carid_fkey
+    File: ri_triggers.c
+    Line: 2811
+    Routine: ri_ReportViolation
+2026-05-14 17:43:43.893 +05:00 [INF] Executed action WebApi.Controller.CarController.Delete (WebApi) in 212.7066ms
+2026-05-14 17:43:43.900 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.Delete (WebApi)'
+2026-05-14 17:43:43.906 +05:00 [ERR] Database error
+Npgsql.PostgresException (0x80004005): 23503: UPDATE или DELETE в таблице "cars" нарушает ограничение внешнего ключа "rentals_carid_fkey" таблицы "rentals"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 663
+   at Infrastructure.Services.CarService.Delete(Int32 id) in C:\Users\user\Desktop\W6.1\Infrastructure\Service\CarService.cs:line 147
+   at WebApi.Controller.CarController.Delete(Int32 id) in C:\Users\user\Desktop\W6.1\WebApi\Controller\CarController.cs:line 50
+   at lambda_method37(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WebApi.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\user\Desktop\W6.1\WebApi\Middleweras\ExceptionMiddleware.cs:line 21
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23503
+    MessageText: UPDATE или DELETE в таблице "cars" нарушает ограничение внешнего ключа "rentals_carid_fkey" таблицы "rentals"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: rentals
+    ConstraintName: rentals_carid_fkey
+    File: ri_triggers.c
+    Line: 2811
+    Routine: ri_ReportViolation
+2026-05-14 17:43:43.980 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5243/api/cars/2 - 500 null null 346.6193ms
+2026-05-15 15:30:21.003 +05:00 [INF] Now listening on: http://localhost:5243
+2026-05-15 15:30:21.024 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-15 15:30:21.026 +05:00 [INF] Hosting environment: Development
+2026-05-15 15:30:21.027 +05:00 [INF] Content root path: C:\Users\user\Desktop\W6.1\WebApi
+2026-05-15 15:30:37.715 +05:00 [INF] Application is shutting down...
+2026-05-15 15:30:43.143 +05:00 [INF] Now listening on: http://localhost:5243
+2026-05-15 15:30:43.158 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-15 15:30:43.160 +05:00 [INF] Hosting environment: Development
+2026-05-15 15:30:43.162 +05:00 [INF] Content root path: C:\Users\user\Desktop\W6.1\WebApi
+2026-05-15 15:31:12.654 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2026-05-15 15:31:12.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 304 null null 248.4248ms
+2026-05-15 15:31:12.962 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - null null
+2026-05-15 15:31:12.997 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - null null
+2026-05-15 15:31:12.997 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.css - null null
+2026-05-15 15:31:12.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-15 15:31:12.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.js - null null
+2026-05-15 15:31:13.149 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - 304 null null 187.9851ms
+2026-05-15 15:31:13.226 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.css - 304 null null 229.097ms
+2026-05-15 15:31:13.265 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - 304 null null 267.5882ms
+2026-05-15 15:31:13.324 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - 304 null null 326.5221ms
+2026-05-15 15:31:13.361 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.js - 304 null null 362.3964ms
+2026-05-15 15:31:13.505 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2026-05-15 15:31:13.538 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - null null
+2026-05-15 15:31:13.601 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - 304 null null 60.2084ms
+2026-05-15 15:31:13.936 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 430.8987ms
+2026-05-15 15:31:23.307 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/cars - null null
+2026-05-15 15:31:23.374 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-05-15 15:31:24.137 +05:00 [INF] Executing endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-15 15:31:24.246 +05:00 [INF] Route matched with {action = "GetAll", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Domain.Car]] GetAll() on controller WebApi.Controller.CarController (WebApi).
+2026-05-15 15:31:24.671 +05:00 [INF] Retrieving all cars
+2026-05-15 15:31:25.378 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Car, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-15 15:31:25.463 +05:00 [INF] Executed action WebApi.Controller.CarController.GetAll (WebApi) in 1203.6681ms
+2026-05-15 15:31:25.484 +05:00 [INF] Executed endpoint 'WebApi.Controller.CarController.GetAll (WebApi)'
+2026-05-15 15:31:25.515 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/cars - 200 null application/json; charset=utf-8 2206.7965ms
+2026-05-15 15:35:34.517 +05:00 [INF] Application is shutting down...
